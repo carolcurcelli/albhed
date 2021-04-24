@@ -1,0 +1,37 @@
+
+*,
+*:after,
+*:before {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+html {
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+	color: #444444;
+	font-size: 100%;
+}
+	input, button, textarea {
+		font-family: inherit;
+	}
+
+body {
+	background-color: #f7fafb;
+	margin: 0 auto;
+}
+
+img {
+	border: none;
+	max-width: 100%;
+}
+
+a {
+	color: #167bf7;
+    display: inline-block;
+}

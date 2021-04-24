@@ -1,0 +1,146 @@
+body {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+    color:#ffffff;
+    font-family: Arial;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+::selection {
+    background:#ed11b152;
+}
+
+.container {
+    width: 100%;
+    max-width: 50em;
+    padding: 16px;
+}
+
+.title {
+    font-size:2rem;
+    padding: .5em;
+}
+
+#revert {
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+    color:#ffffff;
+    transition:.3s;
+    cursor: pointer;
+    transform: rotate(90deg);
+}
+
+#revert.revert {
+    transform: rotate(270deg);
+}
+
+#id {
+    display:block;
+    margin: 0 auto;
+}
+
+.input, .output {
+    background: transparent;
+    border: solid 1px #ffffff;
+    font-size:1.2rem;
+    padding:.7em 1em;
+    color:#ffffff;
+    border-radius: 2em;
+    width: 100%;
+    text-align: center;
+}
+
+.input::placeholder, .output::placeholder {
+    color:#ffffff4f;
+}
+
+.input:-webkit-autofill, .output:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 60px #045487 inset;
+    -webkit-text-fill-color: #FFF;
+}
+
+#translate {
+    font-size: .9rem;
+    border-radius: 2em;
+    padding: 1.3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    color:#ffffff;
+    margin: 1em 0 0;
+    cursor: pointer;
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    background-size: 1800% 1800%;
+    animation: rainbow 18s ease infinite;
+    transition:.3s;
+    width: 100%;
+}
+
+#translate:hover {
+    transform: translate(0, .1em);
+    opacity: .8;
+}
+
+.description {
+    font-size:.8rem;
+    margin-top: 1.5em;
+}
+
+.rikku {
+    width: 70px;
+    transition: .3s;
+    animation: jumping 1s ease infinite;
+    margin-top: 20px;
+}
+
+.wrapper {
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+
+@keyframes jumping {
+    0% { transform: translate(0, 0); }
+    25% { transform: translate(0, 0); }
+    50% { transform: translate(0, -1em); }
+    75% { transform: translate(0, 0); }
+    100% { transform: translate(0, 0); }
+}
+
+@keyframes rainbow { 
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+@media (min-width: 600px) {
+    .wrapper {
+        flex-direction: row;
+    }
+    .input, .output {
+        width: 40%;
+        font-size: 1.8rem;
+        text-align:left;
+        padding: .2em 1em;
+    }
+    .title {
+        font-size: 3rem;
+    }
+    #translate {
+        width: auto;
+        padding: 1em 1.5em;
+    }
+    #revert {
+        transform: rotate(0deg);
+    }
+    
+    #revert.revert {
+        transform: rotate(-180deg);
+    }
+}
