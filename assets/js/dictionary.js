@@ -29,7 +29,7 @@
         'u': 'i', 'U': 'I', 
         'v': 'j', 'V': 'J', 
         'x': 'q', 'X': 'Q', 
-        'w': 'z', 'W': 'Z', 
+        'w': 'f', 'W': 'F', 
         'y': 'o', 'Y': 'O', 
         'z': 'w', 'Z': 'W', 
     }
@@ -37,6 +37,8 @@
     for (var letter in alphabet) {
         alphabetAlBhed[alphabet[letter]] = letter;
     };
+
+    console.log(alphabetAlBhed);
 
     revert.addEventListener('click', function(e) {
         translate.classList.toggle('translateToAlBhed');
