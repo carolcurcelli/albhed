@@ -38,8 +38,6 @@
         alphabetAlBhed[alphabet[letter]] = letter;
     };
 
-    console.log(alphabetAlBhed);
-
     revert.addEventListener('click', function(e) {
         translate.classList.toggle('translateToAlBhed');
         translate.classList.toggle('translateToEnglish');
@@ -54,7 +52,6 @@
 
     translate.addEventListener('click', function(e) {
         if(translate.className === 'translateToAlBhed') {
-            console.log('>>>');
             const english = input[0].value;
             const alBhed = english.replaceAll(/([A-Za-z])/g, function (m) {
                 return alphabet[m];
@@ -62,7 +59,6 @@
             output[0].value = alBhed;
         } 
         else if(translate.className === 'translateToEnglish') {
-            console.log('<<<');
             const alBhed = input[0].value;
             const english = alBhed.replaceAll(/([A-Za-z])/g, function (m) {
                 return alphabetAlBhed[m];
