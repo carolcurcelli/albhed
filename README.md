@@ -15,6 +15,7 @@
     <a href="https://github.com/carolsvntos/albhed/issues">Report Bug</a>
     ·
     <a href="https://github.com/carolsvntos/albhed/issues">Request Feature</a>
+    <a href="">License</a>
   </p>
 </div>
 <div align="center">
@@ -27,6 +28,7 @@
   <br /><br /><br /><br />
 </div>
 <div align="center">
-  <p>Built with</p>
+  <p>built with</p>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 </div>
