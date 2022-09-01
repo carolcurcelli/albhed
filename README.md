@@ -24,12 +24,19 @@
 </div>
 <div align="center">
   The Al Bhed Translator is a project created with the intent of studying JavaScript and also making the playthrough of Final Fantasy X easier for first runners.
-  It is pretty cut and dry, all you have to do is [click here](https://carolsvntos.github.io/albhed/) to have access to the translator.
+  It is pretty cut and dry, all you have to do is <a href="https://carolsvntos.github.io/albhed/">click here</a> to have access to the translator.
   Real sentences from the game were used to test, but if you find any issues, please report on the link above.
+  <br /><br />
+</div>
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/1522117/188003288-0f8e49e4-c37c-401f-9127-3bfccdceea92.png" width="700">
   <br /><br /><br /><br />
 </div>
 <div align="center">
-  <p>built with</p>
+ 👉 <a href="https://carolsvntos.github.io/albhed/" style="font-size:30px;">View Translator</a> 👈
+ <br /><br /><br /><br /><br /><br />
+</div>
+<div align="center">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
 </div>
