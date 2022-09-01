@@ -15,7 +15,8 @@
     <a href="https://github.com/carolsvntos/albhed/issues">Report Bug</a>
     ·
     <a href="https://github.com/carolsvntos/albhed/issues">Request Feature</a>
-    <a href="">License</a>
+    ·
+    <a href="https://github.com/carolsvntos/albhed/blob/master/LICENSE.md">License</a>
   </p>
 </div>
 <div align="center">
